@@ -13,6 +13,28 @@
 		3FA0B30A1FE154790011F5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0B3081FE154790011F5A5 /* LaunchScreen.storyboard */; };
 		3FA0B3151FE1547A0011F5A5 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B3141FE1547A0011F5A5 /* ____Tests.swift */; };
 		3FA0B3201FE1547A0011F5A5 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B31F1FE1547A0011F5A5 /* ____UITests.swift */; };
+		3FA0B33D1FE221E20011F5A5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0B33B1FE221E10011F5A5 /* Home.storyboard */; };
+		3FA0B33F1FE222AC0011F5A5 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0B33E1FE222AC0011F5A5 /* Live.storyboard */; };
+		3FA0B3421FE222C10011F5A5 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0B3401FE222C10011F5A5 /* Profile.storyboard */; };
+		3FA0B3441FE222D80011F5A5 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0B3431FE222D80011F5A5 /* Follow.storyboard */; };
+		3FA0B3561FE2312E0011F5A5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B3551FE2312D0011F5A5 /* MainViewController.swift */; };
+		3FA0B3581FE2330A0011F5A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B3571FE2330A0011F5A5 /* HomeViewController.swift */; };
+		3FA0B35A1FE233400011F5A5 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B3591FE233400011F5A5 /* FollowViewController.swift */; };
+		3FA0B35C1FE2335F0011F5A5 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B35B1FE2335F0011F5A5 /* LiveViewController.swift */; };
+		3FA0B35E1FE233810011F5A5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B35D1FE233810011F5A5 /* ProfileViewController.swift */; };
+		3FA0B3611FE260CF0011F5A5 /* UIBarButtonItem-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B3601FE260CF0011F5A5 /* UIBarButtonItem-extension.swift */; };
+		3FA0B3631FE275650011F5A5 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B3621FE275650011F5A5 /* PageTitleView.swift */; };
+		3FA0B3671FE3777F0011F5A5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B3661FE3777F0011F5A5 /* Common.swift */; };
+		3FA0B3691FE3A74C0011F5A5 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B3681FE3A74C0011F5A5 /* PageContentView.swift */; };
+		3FA0B36B1FE3AB2E0011F5A5 /* UIColor-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B36A1FE3AB2E0011F5A5 /* UIColor-extension.swift */; };
+		3FA0B36D1FE765750011F5A5 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B36C1FE765750011F5A5 /* RecommendViewController.swift */; };
+		3FA0B3701FE79FFC0011F5A5 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B36E1FE79FFC0011F5A5 /* CollectionReusableView.swift */; };
+		3FA0B3711FE79FFC0011F5A5 /* CollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0B36F1FE79FFC0011F5A5 /* CollectionReusableView.xib */; };
+		3FA0B3741FE7A7650011F5A5 /* CollectionNurmalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B3721FE7A7650011F5A5 /* CollectionNurmalCell.swift */; };
+		3FA0B3751FE7A7650011F5A5 /* CollectionNurmalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0B3731FE7A7650011F5A5 /* CollectionNurmalCell.xib */; };
+		3FA0B3781FE7B1000011F5A5 /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B3761FE7B1000011F5A5 /* CollectionPrettyCell.swift */; };
+		3FA0B3791FE7B1000011F5A5 /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0B3771FE7B1000011F5A5 /* CollectionPrettyCell.xib */; };
+		9BADE4F03F1DD9F9869DC0F8 /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED5FDEA90FFF661BE16CD8A /* Pods_____.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20BF9222214496B14B10A718 /* Pods-斗鱼直播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-斗鱼直播.debug.xcconfig"; path = "Pods/Target Support Files/Pods-斗鱼直播/Pods-斗鱼直播.debug.xcconfig"; sourceTree = "<group>"; };
+		3ED5FDEA90FFF661BE16CD8A /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA0B2FC1FE154790011F5A5 /* 斗鱼直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "斗鱼直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA0B2FF1FE154790011F5A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FA0B3041FE154790011F5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,11 +64,35 @@
 		3FA0B3091FE154790011F5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FA0B30B1FE154790011F5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FA0B3101FE1547A0011F5A5 /* 斗鱼直播Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗鱼直播Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FA0B3141FE1547A0011F5A5 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		3FA0B3141FE1547A0011F5A5 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ____Tests.swift; sourceTree = "<group>"; };
 		3FA0B3161FE1547A0011F5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FA0B31B1FE1547A0011F5A5 /* 斗鱼直播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗鱼直播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FA0B31F1FE1547A0011F5A5 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		3FA0B31F1FE1547A0011F5A5 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ____UITests.swift; sourceTree = "<group>"; };
 		3FA0B3211FE1547A0011F5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA0B33C1FE221E20011F5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼直播/Class/Main(主要)/Base.lproj/Home.storyboard"; sourceTree = "<group>"; };
+		3FA0B33E1FE222AC0011F5A5 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		3FA0B3411FE222C10011F5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼直播/Class/Main(主要)/Base.lproj/Profile.storyboard"; sourceTree = "<group>"; };
+		3FA0B3431FE222D80011F5A5 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		3FA0B3551FE2312D0011F5A5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3FA0B3571FE2330A0011F5A5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "斗鱼直播/Class/Home(首页)/HomeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		3FA0B3591FE233400011F5A5 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		3FA0B35B1FE2335F0011F5A5 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		3FA0B35D1FE233810011F5A5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3FA0B3601FE260CF0011F5A5 /* UIBarButtonItem-extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-extension.swift"; sourceTree = "<group>"; };
+		3FA0B3621FE275650011F5A5 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		3FA0B3661FE3777F0011F5A5 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		3FA0B3681FE3A74C0011F5A5 /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		3FA0B36A1FE3AB2E0011F5A5 /* UIColor-extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-extension.swift"; sourceTree = "<group>"; };
+		3FA0B36C1FE765750011F5A5 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		3FA0B36E1FE79FFC0011F5A5 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		3FA0B36F1FE79FFC0011F5A5 /* CollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionReusableView.xib; sourceTree = "<group>"; };
+		3FA0B3721FE7A7650011F5A5 /* CollectionNurmalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionNurmalCell.swift; sourceTree = "<group>"; };
+		3FA0B3731FE7A7650011F5A5 /* CollectionNurmalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionNurmalCell.xib; sourceTree = "<group>"; };
+		3FA0B3761FE7B1000011F5A5 /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		3FA0B3771FE7B1000011F5A5 /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
+		4B741974CD6338BB68930591 /* Pods-斗鱼直播.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-斗鱼直播.release.xcconfig"; path = "Pods/Target Support Files/Pods-斗鱼直播/Pods-斗鱼直播.release.xcconfig"; sourceTree = "<group>"; };
+		C57A9705847C97B42BA7D37D /* Pods_____UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_____UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B46879B1E78EC7F99C4A30 /* Pods_____Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_____Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BADE4F03F1DD9F9869DC0F8 /* Pods_____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20FAEB90B3D646DB59D42DA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20BF9222214496B14B10A718 /* Pods-斗鱼直播.debug.xcconfig */,
+				4B741974CD6338BB68930591 /* Pods-斗鱼直播.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3FA0B2F31FE154790011F5A5 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +137,8 @@
 				3FA0B3131FE1547A0011F5A5 /* 斗鱼直播Tests */,
 				3FA0B31E1FE1547A0011F5A5 /* 斗鱼直播UITests */,
 				3FA0B2FD1FE154790011F5A5 /* Products */,
+				20FAEB90B3D646DB59D42DA4 /* Pods */,
+				BAC080E9A36C4ED96CE31DA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +157,6 @@
 			children = (
 				3FA0B32D1FE164DB0011F5A5 /* Class */,
 				3FA0B2FF1FE154790011F5A5 /* AppDelegate.swift */,
-				3FA0B3031FE154790011F5A5 /* Main.storyboard */,
 				3FA0B3061FE154790011F5A5 /* Assets.xcassets */,
 				3FA0B3081FE154790011F5A5 /* LaunchScreen.storyboard */,
 				3FA0B30B1FE154790011F5A5 /* Info.plist */,
@@ -127,8 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				3FA0B3331FE164DB0011F5A5 /* Main(主要) */,
-				3FA0B32E1FE164DB0011F5A5 /* Follow(关注) */,
 				3FA0B32F1FE164DB0011F5A5 /* Home(首页) */,
+				3FA0B32E1FE164DB0011F5A5 /* Follow(关注) */,
 				3FA0B3301FE164DB0011F5A5 /* Live(直播) */,
 				3FA0B3321FE164DB0011F5A5 /* Profile(我的) */,
 				3FA0B3311FE164DB0011F5A5 /* Tools(工具类) */,
@@ -139,6 +198,9 @@
 		3FA0B32E1FE164DB0011F5A5 /* Follow(关注) */ = {
 			isa = PBXGroup;
 			children = (
+				3FA0B34A1FE22FE90011F5A5 /* Controller */,
+				3FA0B3491FE22FE90011F5A5 /* Model */,
+				3FA0B3481FE22FE90011F5A5 /* View */,
 			);
 			path = "Follow(关注)";
 			sourceTree = "<group>";
@@ -146,6 +208,9 @@
 		3FA0B32F1FE164DB0011F5A5 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				3FA0B3531FE230090011F5A5 /* Controller */,
+				3FA0B3521FE230090011F5A5 /* Model */,
+				3FA0B3511FE230090011F5A5 /* View */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -153,6 +218,9 @@
 		3FA0B3301FE164DB0011F5A5 /* Live(直播) */ = {
 			isa = PBXGroup;
 			children = (
+				3FA0B34D1FE22FF20011F5A5 /* Controller */,
+				3FA0B34C1FE22FF20011F5A5 /* Model */,
+				3FA0B34B1FE22FF10011F5A5 /* View */,
 			);
 			path = "Live(直播)";
 			sourceTree = "<group>";
@@ -160,6 +228,8 @@
 		3FA0B3311FE164DB0011F5A5 /* Tools(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				3FA0B35F1FE25EA30011F5A5 /* Extension */,
+				3FA0B3661FE3777F0011F5A5 /* Common.swift */,
 			);
 			path = "Tools(工具类)";
 			sourceTree = "<group>";
@@ -167,6 +237,9 @@
 		3FA0B3321FE164DB0011F5A5 /* Profile(我的) */ = {
 			isa = PBXGroup;
 			children = (
+				3FA0B3501FE22FFC0011F5A5 /* Controller */,
+				3FA0B34F1FE22FFC0011F5A5 /* Model */,
+				3FA0B34E1FE22FFC0011F5A5 /* View */,
 			);
 			path = "Profile(我的)";
 			sourceTree = "<group>";
@@ -174,8 +247,166 @@
 		3FA0B3331FE164DB0011F5A5 /* Main(主要) */ = {
 			isa = PBXGroup;
 			children = (
+				3FA0B3471FE22FD80011F5A5 /* Controller */,
+				3FA0B3461FE22FD80011F5A5 /* Model */,
+				3FA0B3451FE22FD70011F5A5 /* View */,
 			);
 			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		3FA0B3451FE22FD70011F5A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0B3621FE275650011F5A5 /* PageTitleView.swift */,
+				3FA0B3681FE3A74C0011F5A5 /* PageContentView.swift */,
+				3FA0B3721FE7A7650011F5A5 /* CollectionNurmalCell.swift */,
+				3FA0B3731FE7A7650011F5A5 /* CollectionNurmalCell.xib */,
+				3FA0B3761FE7B1000011F5A5 /* CollectionPrettyCell.swift */,
+				3FA0B3771FE7B1000011F5A5 /* CollectionPrettyCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FA0B3461FE22FD80011F5A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FA0B3471FE22FD80011F5A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0B3031FE154790011F5A5 /* Main.storyboard */,
+				3FA0B3551FE2312D0011F5A5 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3FA0B3481FE22FE90011F5A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = "斗鱼直播/Class/Main(主要)/View";
+			sourceTree = SOURCE_ROOT;
+		};
+		3FA0B3491FE22FE90011F5A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "斗鱼直播/Class/Main(主要)/Model";
+			sourceTree = SOURCE_ROOT;
+		};
+		3FA0B34A1FE22FE90011F5A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0B3591FE233400011F5A5 /* FollowViewController.swift */,
+				3FA0B3431FE222D80011F5A5 /* Follow.storyboard */,
+			);
+			name = Controller;
+			path = "斗鱼直播/Class/Main(主要)/Controller";
+			sourceTree = SOURCE_ROOT;
+		};
+		3FA0B34B1FE22FF10011F5A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = "斗鱼直播/Class/Main(主要)/View";
+			sourceTree = SOURCE_ROOT;
+		};
+		3FA0B34C1FE22FF20011F5A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "斗鱼直播/Class/Main(主要)/Model";
+			sourceTree = SOURCE_ROOT;
+		};
+		3FA0B34D1FE22FF20011F5A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0B35B1FE2335F0011F5A5 /* LiveViewController.swift */,
+				3FA0B33E1FE222AC0011F5A5 /* Live.storyboard */,
+			);
+			name = Controller;
+			path = "斗鱼直播/Class/Main(主要)/Controller";
+			sourceTree = SOURCE_ROOT;
+		};
+		3FA0B34E1FE22FFC0011F5A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = "斗鱼直播/Class/Main(主要)/View";
+			sourceTree = SOURCE_ROOT;
+		};
+		3FA0B34F1FE22FFC0011F5A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "斗鱼直播/Class/Main(主要)/Model";
+			sourceTree = SOURCE_ROOT;
+		};
+		3FA0B3501FE22FFC0011F5A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0B35D1FE233810011F5A5 /* ProfileViewController.swift */,
+				3FA0B3401FE222C10011F5A5 /* Profile.storyboard */,
+			);
+			name = Controller;
+			path = "斗鱼直播/Class/Main(主要)/Controller";
+			sourceTree = SOURCE_ROOT;
+		};
+		3FA0B3511FE230090011F5A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0B36E1FE79FFC0011F5A5 /* CollectionReusableView.swift */,
+				3FA0B36F1FE79FFC0011F5A5 /* CollectionReusableView.xib */,
+			);
+			name = View;
+			path = "斗鱼直播/Class/Main(主要)/View";
+			sourceTree = SOURCE_ROOT;
+		};
+		3FA0B3521FE230090011F5A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "斗鱼直播/Class/Main(主要)/Model";
+			sourceTree = SOURCE_ROOT;
+		};
+		3FA0B3531FE230090011F5A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0B33B1FE221E10011F5A5 /* Home.storyboard */,
+				3FA0B3571FE2330A0011F5A5 /* HomeViewController.swift */,
+				3FA0B36C1FE765750011F5A5 /* RecommendViewController.swift */,
+			);
+			name = Controller;
+			path = "斗鱼直播/Class/Main(主要)/Controller";
+			sourceTree = SOURCE_ROOT;
+		};
+		3FA0B35F1FE25EA30011F5A5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0B3601FE260CF0011F5A5 /* UIBarButtonItem-extension.swift */,
+				3FA0B36A1FE3AB2E0011F5A5 /* UIColor-extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BAC080E9A36C4ED96CE31DA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ED5FDEA90FFF661BE16CD8A /* Pods_____.framework */,
+				C8B46879B1E78EC7F99C4A30 /* Pods_____Tests.framework */,
+				C57A9705847C97B42BA7D37D /* Pods_____UITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +416,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FA0B3241FE1547A0011F5A5 /* Build configuration list for PBXNativeTarget "斗鱼直播" */;
 			buildPhases = (
+				C61887A576B465DEB4E80D21 /* [CP] Check Pods Manifest.lock */,
 				3FA0B2F81FE154790011F5A5 /* Sources */,
 				3FA0B2F91FE154790011F5A5 /* Frameworks */,
 				3FA0B2FA1FE154790011F5A5 /* Resources */,
+				E2EB9C2C2C32BC96D501CC35 /* [CP] Embed Pods Frameworks */,
+				526F92B74A3FCA98DB69BA95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,9 +519,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA0B3421FE222C10011F5A5 /* Profile.storyboard in Resources */,
+				3FA0B3791FE7B1000011F5A5 /* CollectionPrettyCell.xib in Resources */,
 				3FA0B30A1FE154790011F5A5 /* LaunchScreen.storyboard in Resources */,
 				3FA0B3071FE154790011F5A5 /* Assets.xcassets in Resources */,
 				3FA0B3051FE154790011F5A5 /* Main.storyboard in Resources */,
+				3FA0B3441FE222D80011F5A5 /* Follow.storyboard in Resources */,
+				3FA0B3711FE79FFC0011F5A5 /* CollectionReusableView.xib in Resources */,
+				3FA0B3751FE7A7650011F5A5 /* CollectionNurmalCell.xib in Resources */,
+				3FA0B33F1FE222AC0011F5A5 /* Live.storyboard in Resources */,
+				3FA0B33D1FE221E20011F5A5 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,12 +548,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		526F92B74A3FCA98DB69BA95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-斗鱼直播/Pods-斗鱼直播-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C61887A576B465DEB4E80D21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-斗鱼直播-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2EB9C2C2C32BC96D501CC35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-斗鱼直播/Pods-斗鱼直播-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-斗鱼直播/Pods-斗鱼直播-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FA0B2F81FE154790011F5A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA0B3741FE7A7650011F5A5 /* CollectionNurmalCell.swift in Sources */,
+				3FA0B3631FE275650011F5A5 /* PageTitleView.swift in Sources */,
+				3FA0B35E1FE233810011F5A5 /* ProfileViewController.swift in Sources */,
+				3FA0B3561FE2312E0011F5A5 /* MainViewController.swift in Sources */,
+				3FA0B3701FE79FFC0011F5A5 /* CollectionReusableView.swift in Sources */,
+				3FA0B3691FE3A74C0011F5A5 /* PageContentView.swift in Sources */,
+				3FA0B36B1FE3AB2E0011F5A5 /* UIColor-extension.swift in Sources */,
+				3FA0B36D1FE765750011F5A5 /* RecommendViewController.swift in Sources */,
 				3FA0B3001FE154790011F5A5 /* AppDelegate.swift in Sources */,
+				3FA0B3671FE3777F0011F5A5 /* Common.swift in Sources */,
+				3FA0B3581FE2330A0011F5A5 /* HomeViewController.swift in Sources */,
+				3FA0B3781FE7B1000011F5A5 /* CollectionPrettyCell.swift in Sources */,
+				3FA0B35A1FE233400011F5A5 /* FollowViewController.swift in Sources */,
+				3FA0B35C1FE2335F0011F5A5 /* LiveViewController.swift in Sources */,
+				3FA0B3611FE260CF0011F5A5 /* UIBarButtonItem-extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +671,22 @@
 				3FA0B3091FE154790011F5A5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA0B33B1FE221E10011F5A5 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA0B33C1FE221E20011F5A5 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA0B3401FE222C10011F5A5 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA0B3411FE222C10011F5A5 /* Base */,
+			);
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -476,6 +801,7 @@
 		};
 		3FA0B3251FE1547A0011F5A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BF9222214496B14B10A718 /* Pods-斗鱼直播.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -493,6 +819,7 @@
 		};
 		3FA0B3261FE1547A0011F5A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B741974CD6338BB68930591 /* Pods-斗鱼直播.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
